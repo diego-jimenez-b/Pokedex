@@ -10,13 +10,16 @@ function App() {
       <MainHeader />
       <Switch>
         <Route path='/' exact>
-          <Redirect to='/home' />
+          <Redirect to='/Pokedex/home' />
         </Route>
-        <Route path='/home'>
+        <Route path='/Pokedex/home'>
           <MainList />
         </Route>
-        <Route path='/comparison'>
+        <Route path='/Pokedex/comparison'>
           <ComparePoke />
+        </Route>
+        <Route path='*'>
+          <Redirect to='/Pokedex/home' />
         </Route>
       </Switch>
     </Fragment>
