@@ -1,0 +1,16 @@
+.list {
+  list-style-type: none;
+  margin: -10px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 50px auto;
+  padding: 10px 20px;
+  width: 40%;
+  text-align: center;
+  font-weight: bold;
+}

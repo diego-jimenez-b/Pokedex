@@ -1,0 +1,15 @@
+.section {
+  width: 48%;
+  margin: 10px 1%;
+  text-align: center;
+}
+
+@media screen and (max-width: 530px) {
+ .section {
+   width: 100%;
+   margin: 10px 0 0;
+ }
+ .section h3 {
+   margin: 15px 0 5px;
+ }
+}

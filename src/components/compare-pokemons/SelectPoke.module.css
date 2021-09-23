@@ -1,0 +1,45 @@
+.container {
+  width: 35%;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  padding: 10px 0;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+.card input {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 70%;
+  padding: 3px 4px;
+}
+
+.message {
+  padding: 18px;
+  margin: 0 auto;
+  text-align: center;
+}
+.message p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 870px) {
+  .container {
+    width: 40%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 570px)  {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    width: 82%;
+  }
+}

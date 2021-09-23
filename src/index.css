@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --test: rgb(177, 177, 177);
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('/src/assets/images/background.jpg') no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    background-size: 130vw 100vh;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    background-size: 155vw 100vh;
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    background-size: 190vw 100vh;
+  }
+}
