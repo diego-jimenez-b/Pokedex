@@ -12,7 +12,7 @@ const MainHeader = () => {
             <NavLink to='/home' activeClassName={classes.active}>
               Home
             </NavLink>
-            <NavLink to='./comparison' activeClassName={classes.active}>
+            <NavLink to='/comparison' activeClassName={classes.active}>
               Battle
             </NavLink>
           </li>
